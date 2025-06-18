@@ -1,10 +1,10 @@
 import { useState } from 'react';
 import { StyleSheet, View } from 'react-native';
 
-import Button from '../components/Button';
-import CircleButton from '../components/CircleButton';
-import IconButton from '../components/IconButton';
-import ImageViewer from '../components/ImageViewer';
+import Button from '@/components/Button';
+import CircleButton from '@/components/CircleButton';
+import IconButton from '@/components/IconButton';
+import ImageViewer from '@/components/ImageViewer';
 
 import * as ImagePicker from 'expo-image-picker';
 const PlaceholderImage = require("@/assets/images/background-image.png");
